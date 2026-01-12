@@ -10,46 +10,28 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        primary: ['Lato', 'sans-serif'],
+        primary: ['Blinker', 'sans-serif'],
         secondary: ['Poppins', 'sans-serif'],
       },
       colors: {
         primary: {
-          DEFAULT: '#ED1C24',
-          light: '#9AA770',
-          dark: '#788941',
-          200: '#BBC4A0',
-          100: '#DDE2CF',
-          50: '#EEF0E7',
+          DEFAULT: '#FBAD26',
+          dark: '#21282E',
+          light: '#3E4883',
         },
         secondary: {
-          DEFAULT: '#fff',
-          light: '#E9A777',
-          dark: '#DE7C34',
-          200: '#F0C5A5',
-          100: '#F8E2D2',
-          50: '#FBF0E8',
+          DEFAULT: '#F1607A',
         },
         tertiary: {
-          DEFAULT: '#5F7176',
+          DEFAULT: '#008A80',
         },
         background: {
           DEFAULT: '#ffffff',
-          light: '#EFF5EC',
-          dark: '#000000',
+          light: '#CCEBF8',
+          dark: '#3E4883',
         },
         neutral: {
-          DEFAULT: '#101828',
-          800: '#1D2939',
-          700: '#344054',
-          600: '#475467',
-          500: '#667085',
-          400: '#98A2B3',
-          300: '#D0D5DD',
-          200: '#EAECF0',
-          100: '#F2F4F7',
-          50: '#F9FAFB',
-          25: '#FCFCFD',
+          DEFAULT: '#3E4883',
         },
         highlight: {
           primary: '#101828',
@@ -62,12 +44,12 @@ module.exports = {
           accent: '#1D2939',
         },
         hover: {
-          bg: '#F6F6F6', // Using primary-light as hover background
-          text: '#000', // Using accent-greenDark as hover text
+          bg: '#3E4883', // Using primary-light as hover background
+          text: '#ffffff', // Using accent-greenDark as hover text
         },
       },
       backgroundColor: {
-        'hover': '#F6F6F6', // Now available as hover:bg-hover-bg
+        'hover': '#F1607A', // Now available as hover:bg-hover-bg
       },
       textColor: {
         'hover': '#041227', // Now available as hover:text-hover-text

@@ -188,7 +188,7 @@ $filter_title = $settings['filter_section_title'] ?? 'Filter News';
               class="flex flex-wrap gap-4 items-start mt-2 w-full font-medium max-md:max-w-full"
             >
               <button role="radio"
-                      class="gap-2 px-6 py-2 whitespace-nowrap bg-white rounded-lg hover:text-white hover:bg-primary btn filter-btn focus:outline-none focus:ring-2 focus:ring-offset-2"
+                      class="gap-2 px-6 py-2 whitespace-nowrap bg-transparent rounded-lg hover:text-white hover:bg-primary btn filter-btn focus:outline-none focus:ring-2 focus:ring-offset-2"
                       data-filter="all"
                       aria-checked="<?php echo $current_slug === 'all' ? 'true' : 'false'; ?>"
                       tabindex="<?php echo $current_slug === 'all' ? '0' : '-1'; ?>">
@@ -203,7 +203,7 @@ $filter_title = $settings['filter_section_title'] ?? 'Filter News';
               ?>
                 <button
                   role="radio"
-                  class="gap-2 px-6 py-2 whitespace-nowrap bg-white rounded-lg hover:bg-primary filter-btn hover:bg-teritary hover:border-white hover:text-white focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-white"
+                  class="gap-2 px-6 py-2 whitespace-nowrap bg-transparent rounded-lg hover:bg-primary filter-btn hover:bg-teritary hover:border-white hover:text-white focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-white"
                   data-filter="<?php echo $slug; ?>"
                   aria-checked="<?php echo $checked; ?>"
                   tabindex="<?php echo $tab; ?>"
@@ -219,13 +219,13 @@ $filter_title = $settings['filter_section_title'] ?? 'Filter News';
             <form class="flex w-full" role="search" aria-label="Search articles">
               <div class="flex-1 my-auto text-base shrink min-h-14 min-w-60 text-slate-600">
                 <div class="flex-1 w-full">
-                  <div class="flex flex-1 justify-between items-center px-4 py-3 bg-white rounded-l size-full">
+                  <div class="flex flex-1 justify-between items-center px-4 py-3 bg-transparent rounded-l size-full">
                     <label for="article-search" class="sr-only">Search articles</label>
                     <input
                       type="search"
                       id="article-search"
                       placeholder="Search articles"
-                      class="flex-1 px-4 py-3 bg-white rounded-l border-none size-full text-slate-600 placeholder-slate-600"
+                      class="flex-1 px-4 py-3 bg-transparent rounded-l border-none size-full text-slate-600 placeholder-slate-600"
                       aria-label="Search articles"
                     />
                   </div>
@@ -293,7 +293,7 @@ $filter_title = $settings['filter_section_title'] ?? 'Filter News';
 
 <section class="flex overflow-hidden relative">
   <div class="flex flex-col items-center pt-5 pb-5 mx-auto w-full max-w-[1158px] px-5">
-    <div class="flex flex-col gap-8 pt-12 pb-14 w-full bg-white">
+    <div class="flex flex-col gap-8 pt-12 pb-14 w-full bg-transparent">
 
       <!-- Heading: Total posts + Clear Filters Button -->
       <div class="flex justify-between items-center w-full">
@@ -374,7 +374,7 @@ $filter_title = $settings['filter_section_title'] ?? 'Filter News';
                   />
                 </div>
 
-                <div class="py-4 bg-white">
+                <div class="py-4 bg-transparent">
                   <div class="px-8 py-2.5 text-sm font-medium leading-5 text-gray-500 opacity-80">
                     <time datetime="<?php echo esc_attr( get_the_date('c') ); ?>" class="text-sm text-gray-500">
                       <?php echo esc_html( $post_date ); ?> • Read time: <?php echo esc_html( $read_time ); ?>
@@ -396,7 +396,7 @@ $filter_title = $settings['filter_section_title'] ?? 'Filter News';
 
                   <div class="px-8 mt-2.5 text-left">
                     <div
-                      class="btn flex gap-2 justify-center items-center px-6 py-4 my-auto text-sm font-semibold leading-none bg-white border-primary border-2 border-solid min-h-[52px] max-md:px-5 transition-colors duration-200 group text-primary hover:text-white hover:bg-primary"
+                      class="btn flex gap-2 justify-center items-center px-6 py-4 my-auto text-sm font-semibold leading-none bg-transparent border-primary border-2 border-solid min-h-[52px] max-md:px-5 transition-colors duration-200 group text-primary hover:text-white hover:bg-primary"
                       style="width:160px; height:48px;"
                     >
                       View More

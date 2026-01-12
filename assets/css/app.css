@@ -5,7 +5,7 @@
 /*@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&display=swap'); */
 
 html {
- /* max-width: 1920px; */
+  /*max-width: 80rem;*/
   @apply font-primary;
   width: 100%;
   margin: auto;
@@ -1108,7 +1108,7 @@ body {
 }
 
 .hero_title span {
-@apply font-bold text-primary-light;
+@apply font-bold text-primary-dark;
 }
 
 .slick-dots ul, .is-not-woo .wp_editor ul {

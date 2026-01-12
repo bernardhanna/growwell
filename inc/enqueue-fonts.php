@@ -6,15 +6,8 @@
  */
 function matrix_starter_enqueue_fonts() {
   wp_enqueue_style(
-    'google-fonts-lato',
-    'https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap',
-    [],
-    null
-  );
-  
-  wp_enqueue_style(
-    'google-fonts-poppins',
-    'https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap',
+    'google-blinker',
+    'https://fonts.googleapis.com/css2?family=Blinker:wght@100;200;300;400;600;700;800;900&display=swap',
     [],
     null
   );
